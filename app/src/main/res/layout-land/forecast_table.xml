@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/forecast"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/forecast_grid_background"
+    android:padding="8dp"
+    android:shrinkColumns="*"
+    android:gravity="center">
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/day1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/forecast_height"
+            android:layout_margin="8dp"
+            app:srcCompat="@drawable/ic_thunder"/>
+        <ImageView
+            android:id="@+id/day2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/forecast_height"
+            android:layout_margin="8dp"
+            app:srcCompat="@drawable/ic_fog" />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/day3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/forecast_height"
+            android:layout_margin="8dp"
+            app:srcCompat="@drawable/ic_rain" />
+
+        <ImageView
+            android:id="@+id/day4"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/forecast_height"
+            android:layout_margin="8dp"
+            app:srcCompat="@drawable/ic_snow"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/day5"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/forecast_height"
+            android:layout_margin="8dp"
+            app:srcCompat="@drawable/ic_cloud" />
+        <ImageView
+            android:id="@+id/day6"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/forecast_height"
+            android:layout_margin="8dp"
+            app:srcCompat="@drawable/ic_sun" />
+    </TableRow>
+
+</TableLayout>
